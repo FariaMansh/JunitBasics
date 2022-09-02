@@ -55,11 +55,11 @@ public class NumberCalculationTest {
 				);
 	}
 	
-	@Test
-	public void testDivide() {
-		//testcase pass if it throws Exceptions.
-		assertThrows(ArithmeticException.class, () -> nc.divide(1, 0), "Denominator should not be zero");
-	}
+//	@Test
+//	public void testDivide() {
+//		//testcase pass if it throws Exceptions.
+//		assertThrows(ArithmeticException.class, () -> nc.divide(1, 0), "Denominator should not be zero");
+//	}
 	
 
 }
