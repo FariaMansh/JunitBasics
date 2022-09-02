@@ -23,37 +23,37 @@ public class NumberCalculationTest {
 		assertEquals(nc.add(10, 20), 30);
 	}
 	
-	//Inner Class
-	@Nested
-	class AddTest {
-		
-		@Test
-		public void addPositive() {
-			assertEquals(nc.add(2, 4), 6);
-			
-		}
-		
-		@Test
-		public void addPos_Neg() {
-			assertEquals(nc.add(9, -5), 4);
-			
-		}
-		
-		@Test
-		public void addNeg() {
-			assertEquals(-2, nc.add(-1, -1));
-		}
-	}
-	
-	
-	@Test
-	public void testMultiply() {
-		assertAll(
-				() -> assertEquals(0, nc.multiply(0, 1)),
-				() -> assertEquals(5, nc.multiply(5, 1)),
-				() -> assertEquals(nc.multiply(4, 5), 20)
-				);
-	}
+//	//Inner Class
+//	@Nested
+//	class AddTest {
+//		
+//		@Test
+//		public void addPositive() {
+//			assertEquals(nc.add(2, 4), 6);
+//			
+//		}
+//		
+//		@Test
+//		public void addPos_Neg() {
+//			assertEquals(nc.add(9, -5), 4);
+//			
+//		}
+//		
+//		@Test
+//		public void addNeg() {
+//			assertEquals(-2, nc.add(-1, -1));
+//		}
+//	}
+//	
+//	
+//	@Test
+//	public void testMultiply() {
+//		assertAll(
+//				() -> assertEquals(0, nc.multiply(0, 1)),
+//				() -> assertEquals(5, nc.multiply(5, 1)),
+//				() -> assertEquals(nc.multiply(4, 5), 20)
+//				);
+//	}
 	
 //	@Test
 //	public void testDivide() {
