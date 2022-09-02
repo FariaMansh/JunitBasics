@@ -11,12 +11,12 @@ import org.junit.jupiter.api.Test;
 public class NumberCalculationTest {
 	
 	//create reference of NumberCalculation
-	NumberCalculation nc;
+	NumberCalculation nc = new NumberCalculation();
 	
-	@BeforeEach
-	public void init() {
-		nc = new NumberCalculation();
-	}
+//	@BeforeEach
+//	public void init() {
+//		nc = new NumberCalculation();
+//	}
 	
 	@Test
 	public void testAddition() {
